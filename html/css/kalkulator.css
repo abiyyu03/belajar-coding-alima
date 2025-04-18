@@ -1,0 +1,39 @@
+.main {
+    background-color: #A40606;
+    padding:25px;
+    width: fit-content;
+    margin:auto;
+    border-radius: 10px;
+}
+
+#input-angka {
+    width: 500px;
+    padding:20px;
+    font-size:30px;
+    border-radius:10px;
+    background-color:  #D7CF07;
+    border:none;
+}
+
+.button {
+    margin-top:15px;
+}
+
+button {
+    padding:10px;
+    font-size:40px;
+    width: 170px;
+    background-color:#D98324;
+    color:white;
+    border: none;
+    margin:3px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #B76400;
+}
+
+
+
+

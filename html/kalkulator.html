@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kalkulator</title>
+		<link rel="stylesheet" href="css/kalkulator.css" />
+	</head>
+	<body>
+		<div class="main">
+			<input type="text" id="input-angka" name="input-angka" />
+			<div class="button">
+				<div class="angka-atas">
+					<button type="button">7</button>
+					<button type="button">8</button>
+					<button type="button">9</button>
+				</div>
+
+				<div class="angka-tengah">
+					<button type="button">4</button>
+					<button type="button">5</button>
+					<button type="button">6</button>
+				</div>
+
+				<div class="angka-bawah">
+					<button type="button">1</button>
+					<button type="button">2</button>
+					<button type="button">3</button>
+				</div>
+
+				<div class="angka-terbawah">
+					<button type="button">0</button>
+					<button type="button">.</button>
+					<button type="button">%</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			const inputAngka = document.getElementById('input-angka');
+			const buttons = document.querySelectorAll('button');
+
+			buttons.forEach((button) => {
+				button.addEventListener('click', () => {
+					inputAngka.value += button.textContent;
+				});
+			});
+
+			const equalButton = document.querySelector('.button.angka-terbawah button[type="button"]:nth-child(1)');
+		</script>
+	</body>
+</html>

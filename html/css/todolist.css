@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: #2C2A4A;
+    padding: 25px;
+    width: fit-content;
+    height: 98vh;
+}
+
+.app-title {
+    color:#7FDEFF;
+    font-size: 28px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.todo-item {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid #aaa;
+    margin-bottom: 15px;
+    padding:10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.todo-checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+.todo-action .btn-add {
+    background-color: #7FDEFF;
+    color:#2C2A4A;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 30px;
+    position: fixed;
+    bottom:30px;
+}

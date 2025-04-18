@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ceritaku</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Ceritakan keluh kesah dan cerita bahagia mu disini</h1>
+			<div class="form">
+				<label for="title">Judul Cerita</label><br />
+				<input type="text" class="title" id="title" /><br /><br />
+
+				<label for="story">Cerita</label><br />
+				<textarea name="story" id="story" class="story"></textarea><br /><br />
+				<button type="button" onclick="tampilkanCerita()">Ceritakan !</button>
+			</div>
+			<br />
+			<hr />
+			<br />
+			<div class="result">
+				<h1 id="show_title"></h1>
+				<p id="show_story"></p>
+			</div>
+		</div>
+		<script>
+			function tampilkanCerita() {
+				const title = document.getElementById('title').value;
+				const story = document.getElementById('story').value;
+
+				document.getElementById('show_title').textContent = title;
+				document.getElementById('show_story').textContent = story;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:whitesmoke;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+.nav-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.banner-promo img{
+    display: block;
+    width:80%;
+    margin-top:40px;
+    margin-left:auto; 
+    margin-right:auto;
+    border-radius: 30px ;
+}
+
+.catalog {
+    margin-top:10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:25px;
+}
+
+.card {
+    padding:15px;
+    border:1px solid #ccc;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.btn-buy {
+    padding:10px;
+    border:none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #009235;
+}
+
+.toolbar-catalog {
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+}
+
+.search input {
+    padding:10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search button {
+    padding:10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #009235;
+}
+
+.toolbar-catalog h3 {
+    font-size: 24px;
+}
+
+.category-catalog {
+    margin-bottom: 20px;
+}
+
+.category-catalog .group {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-catalog .group .active {
+    background-color: #009235;
+    color: white;
+    border:none;
+}
+
+.category-catalog .group span {
+    border: 1px solid #8b8b8b; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.catalog-merek {
+    margin-top: 60px; 
+    margin-bottom: 50px;
+}
+
+.catalog-merek h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.catalog-merek .group {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.catalog-merek .group span {
+    text-align: center;
+    width: 150px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #abffca; 
+    font-size: 24px; 
+}
+
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+}

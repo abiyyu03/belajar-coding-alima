@@ -4,4 +4,8 @@
 
 let nilai = 85;
 
+if (nilai > 90) {
+	console.log('A');
+}
+
 // TODO: Gunakan if-else untuk menentukan huruf nilai
